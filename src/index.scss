@@ -2,6 +2,8 @@
 
 @import "components/header/header";
 @import "components/nav/nav";
+@import "pages/profile/profile";
+
 
 * {
   padding: 0;
@@ -15,4 +17,9 @@ ul {
 
 body {
   font-family: 'Rubik', sans-serif;
+}
+
+.main {
+  width: 100%;
+  padding: 15px 65px 0 210px;
 }
