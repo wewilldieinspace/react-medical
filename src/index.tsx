@@ -1,10 +1,12 @@
 import React from 'react'
 import { render } from 'react-dom'
+
 import './index.scss'
+import { App } from './app'
 
 
 render(
-    <h1>init</h1>,
+    <App />,
     document.querySelector('#root')
 )
 
