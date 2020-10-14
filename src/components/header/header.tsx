@@ -2,11 +2,12 @@ import React from 'react'
 // Components
 import { HeaderBtn } from './header-btn'
 // Files
-import * as avatar from '../../assets/profile-avatar.png'
+import avatar from '../../assets/profile-avatar.png'
 
 
 
 export const Header = () => {
+    console.log(avatar)
     return (
         <header className='header'>
             <h1 className='header__title'>Мой профиль</h1>
