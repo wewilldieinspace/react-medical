@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback, useState } from 'react'
+import React from 'react'
 // Components
 import { Appointment } from '../../components/appointment/appointment'
 import { Card } from '../../components/card/card'

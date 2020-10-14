@@ -14,7 +14,7 @@ export const DetailsBtn = ({ length }: { length: number | undefined }) => {
                 { i === (4 || 5) ? ' записи' : null }
                 { i > 5 ? ' записей' : null }
             </p>
-            <Link to={`${window.location.pathname}/appointment_details`}>Подробнее</Link>
+            <Link to='/details'>Подробнее</Link>
         </div>
     )
 }
