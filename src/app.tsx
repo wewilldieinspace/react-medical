@@ -28,11 +28,6 @@ export const App = () => {
         }
     }, [request])
 
-    // useEffect(() => {
-    //     setPath(window.location.pathname === '/profile' ? (
-    //         './_data/data.json' ) : '../_data/data.json')
-    // }, [])
-
     useEffect(() => {
         fetchAppointments()
     }, [fetchAppointments])
@@ -51,7 +46,7 @@ export const App = () => {
                             length={ appointments.length }
                         />
                     </Route>
-                    <Route exact path='/details'>
+                    <Route exact path='/profile/details'>
                         <Details
                             appointments={ appointments }
                             loading={ loading }

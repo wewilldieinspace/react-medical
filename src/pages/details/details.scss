@@ -8,10 +8,10 @@ $arrow: "data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill
     display: flex;
     flex-direction: column;
 
-    width: 518px;
+    width: 526px;
 
-    padding-top: 12px;
-    margin-left: -5px;
+    padding-top: 16px;
+    margin-left: -20px;
 
     // Simplebar
     .simplebar-scrollbar.simplebar-visible:before {
@@ -22,7 +22,6 @@ $arrow: "data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill
     .simplebar-scrollbar {
       left: -1px;
       width: 12px;
-
 
       &::before {
         background-color: #003B72;
@@ -44,8 +43,7 @@ $arrow: "data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill
       margin-top: 15px;
       margin-left: 36px;
 
-      border-right: 5px;
-
+      border-width: 0;
       .react-calendar__navigation {
         justify-content: center;
 
@@ -53,6 +51,9 @@ $arrow: "data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill
         margin-bottom: 0;
 
         background-color: $bg-color;
+
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
 
         .react-calendar__navigation__prev2-button,
         .react-calendar__navigation__next2-button {
@@ -100,6 +101,9 @@ $arrow: "data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill
         height: 423px;
 
         background-color: #EBE7FF;
+
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
 
         .react-calendar__month-view__weekdays {
           .react-calendar__month-view__weekdays__weekday {
